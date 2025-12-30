@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  app:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./ui-tests:/app
+    ports:
+      - "3000:3000"
+    command: npm start
+
+  api:
+    image: node:18-alpine
+    working_dir: /api
+    volumes:
+      - ./api-tests-restassured:/api
+    ports:
+      - "8080:8080"
+    command: npm start
+    depends_on:
+      - app
+
+  tests-ui:
+    image: mcr.microsoft.com/playwright:v1.40.1-focal
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    depends_on:
+      - app
+    environment:
+      - BASE_URL=http://app:3000
+    command: bash -c "cd ui-tests && npm install && npm test"
+
+  tests-api:
+    image: maven:3.9-eclipse-temurin-11-focal
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+      - ~/.m2:/root/.m2
+    depends_on:
+      - api
+    environment:
+      - API_BASE_URL=http://api:8080/api
+    command: bash -c "cd api-tests-restassured && mvn clean test"
