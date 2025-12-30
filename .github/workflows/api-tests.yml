@@ -1,0 +1,36 @@
+name: API Tests (REST Assured)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+    - name: Run API tests with Maven
+      run: cd api-tests-restassured && mvn clean test
+      env:
+        API_BASE_URL: http://localhost:8080/api
+    - name: Publish Test Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: API Test Results
+        path: 'api-tests-restassured/target/surefire-reports/*.xml'
+        reporter: 'java-junit'
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: api-test-results
+        path: api-tests-restassured/target/surefire-reports/
+        retention-days: 30
