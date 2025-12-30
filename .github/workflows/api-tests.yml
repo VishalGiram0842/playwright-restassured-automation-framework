@@ -29,7 +29,7 @@ jobs:
         reporter: 'java-junit'
     - name: Upload test results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: api-test-results
         path: api-tests-restassured/target/surefire-reports/
