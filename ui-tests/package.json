@@ -10,7 +10,8 @@
     "test:ui": "playwright test --ui",
     "test:chromium": "playwright test --project=chromium",
     "test:firefox": "playwright test --project=firefox",
-    "test:webkit": "playwright test --project=webkit"
+    "test:webkit": "playwright test --project=webkit",
+    "dev": "echo 'Dev server is running...'"
   },
   "keywords": ["playwright", "typescript", "automation", "ui-testing"],
   "author": "",
