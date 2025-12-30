@@ -1,6 +1,6 @@
 package com.framework.base;
 
-import io.rest-assured.RestAssured;
+import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

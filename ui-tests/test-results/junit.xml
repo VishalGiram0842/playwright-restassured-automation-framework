@@ -1,0 +1,248 @@
+<testsuites id="" name="" tests="15" failures="15" skipped="0" errors="0" time="7.561824">
+<testsuite name="e2e\dashboard.spec.ts" timestamp="2025-12-30T12:55:08.855Z" hostname="chromium" tests="5" failures="5" skipped="0" time="0.046" errors="0">
+<testcase name="Dashboard Tests › should display dashboard after login" classname="e2e\dashboard.spec.ts" time="0.012">
+<failure message="dashboard.spec.ts:12:20 should display dashboard after login" type="FAILURE">
+<![CDATA[  [chromium] › e2e\dashboard.spec.ts:12:20 › Dashboard Tests › should display dashboard after login 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\chromium_headless_shell-1200\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should display user greeting" classname="e2e\dashboard.spec.ts" time="0.008">
+<failure message="dashboard.spec.ts:17:20 should display user greeting" type="FAILURE">
+<![CDATA[  [chromium] › e2e\dashboard.spec.ts:17:20 › Dashboard Tests › should display user greeting ────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\chromium_headless_shell-1200\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to profile page" classname="e2e\dashboard.spec.ts" time="0.009">
+<failure message="dashboard.spec.ts:22:20 should navigate to profile page" type="FAILURE">
+<![CDATA[  [chromium] › e2e\dashboard.spec.ts:22:20 › Dashboard Tests › should navigate to profile page ─────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\chromium_headless_shell-1200\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to settings page" classname="e2e\dashboard.spec.ts" time="0.008">
+<failure message="dashboard.spec.ts:27:20 should navigate to settings page" type="FAILURE">
+<![CDATA[  [chromium] › e2e\dashboard.spec.ts:27:20 › Dashboard Tests › should navigate to settings page ────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\chromium_headless_shell-1200\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should logout successfully" classname="e2e\dashboard.spec.ts" time="0.009">
+<failure message="dashboard.spec.ts:32:20 should logout successfully" type="FAILURE">
+<![CDATA[  [chromium] › e2e\dashboard.spec.ts:32:20 › Dashboard Tests › should logout successfully ──────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\chromium_headless_shell-1200\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="e2e\dashboard.spec.ts" timestamp="2025-12-30T12:55:08.855Z" hostname="firefox" tests="5" failures="5" skipped="0" time="0.048" errors="0">
+<testcase name="Dashboard Tests › should display dashboard after login" classname="e2e\dashboard.spec.ts" time="0.009">
+<failure message="dashboard.spec.ts:12:20 should display dashboard after login" type="FAILURE">
+<![CDATA[  [firefox] › e2e\dashboard.spec.ts:12:20 › Dashboard Tests › should display dashboard after login ─
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\firefox-1497\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should display user greeting" classname="e2e\dashboard.spec.ts" time="0.009">
+<failure message="dashboard.spec.ts:17:20 should display user greeting" type="FAILURE">
+<![CDATA[  [firefox] › e2e\dashboard.spec.ts:17:20 › Dashboard Tests › should display user greeting ─────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\firefox-1497\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to profile page" classname="e2e\dashboard.spec.ts" time="0.007">
+<failure message="dashboard.spec.ts:22:20 should navigate to profile page" type="FAILURE">
+<![CDATA[  [firefox] › e2e\dashboard.spec.ts:22:20 › Dashboard Tests › should navigate to profile page ──────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\firefox-1497\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to settings page" classname="e2e\dashboard.spec.ts" time="0.013">
+<failure message="dashboard.spec.ts:27:20 should navigate to settings page" type="FAILURE">
+<![CDATA[  [firefox] › e2e\dashboard.spec.ts:27:20 › Dashboard Tests › should navigate to settings page ─────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\firefox-1497\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should logout successfully" classname="e2e\dashboard.spec.ts" time="0.01">
+<failure message="dashboard.spec.ts:32:20 should logout successfully" type="FAILURE">
+<![CDATA[  [firefox] › e2e\dashboard.spec.ts:32:20 › Dashboard Tests › should logout successfully ───────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\firefox-1497\firefox\firefox.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="e2e\dashboard.spec.ts" timestamp="2025-12-30T12:55:08.855Z" hostname="webkit" tests="5" failures="5" skipped="0" time="0.07" errors="0">
+<testcase name="Dashboard Tests › should display dashboard after login" classname="e2e\dashboard.spec.ts" time="0.011">
+<failure message="dashboard.spec.ts:12:20 should display dashboard after login" type="FAILURE">
+<![CDATA[  [webkit] › e2e\dashboard.spec.ts:12:20 › Dashboard Tests › should display dashboard after login ──
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\webkit-2227\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should display user greeting" classname="e2e\dashboard.spec.ts" time="0.007">
+<failure message="dashboard.spec.ts:17:20 should display user greeting" type="FAILURE">
+<![CDATA[  [webkit] › e2e\dashboard.spec.ts:17:20 › Dashboard Tests › should display user greeting ──────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\webkit-2227\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to profile page" classname="e2e\dashboard.spec.ts" time="0.023">
+<failure message="dashboard.spec.ts:22:20 should navigate to profile page" type="FAILURE">
+<![CDATA[  [webkit] › e2e\dashboard.spec.ts:22:20 › Dashboard Tests › should navigate to profile page ───────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\webkit-2227\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should navigate to settings page" classname="e2e\dashboard.spec.ts" time="0.015">
+<failure message="dashboard.spec.ts:27:20 should navigate to settings page" type="FAILURE">
+<![CDATA[  [webkit] › e2e\dashboard.spec.ts:27:20 › Dashboard Tests › should navigate to settings page ──────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\webkit-2227\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Dashboard Tests › should logout successfully" classname="e2e\dashboard.spec.ts" time="0.014">
+<failure message="dashboard.spec.ts:32:20 should logout successfully" type="FAILURE">
+<![CDATA[  [webkit] › e2e\dashboard.spec.ts:32:20 › Dashboard Tests › should logout successfully ────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\eqani\AppData\Local\ms-playwright\webkit-2227\Playwright.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
